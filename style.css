@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters label {
+    font-weight: bold;
+}
+
+#map {
+    height: 400px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#kecamatanList {
+    margin-top: 20px;
+}
+
+#kecamatanList table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#kecamatanList th, #kecamatanList td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+#kecamatanList th {
+    background-color: #f2f2f2;
+}

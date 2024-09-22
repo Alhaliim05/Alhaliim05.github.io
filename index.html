@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peta Sebaran Pelaku Usaha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h3>Peta Sebaran Pelaku Usaha</h3>
+            <br>sumber data oss</br>
+        </header>
+        
+    
+        <div class="content">
+            <div id="map"></div>
+         
+            
+            <div id="kecamatanList">
+                <h2>Daftar Kecamatan</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Kecamatan</th>
+                            <th>Jumlah Pelaku usaha</th>
+                        </tr>
+                    </thead>
+                    <tbody id="kecamatanTable">
+                        <!-- Data kecamatan akan diisi oleh JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
